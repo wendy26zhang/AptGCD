@@ -38,6 +38,9 @@ Train the model (taking the Stanford Cars benchmark as an example).
 bash scripts/run_cars.sh
 ```
 
+### Pretrain model
+Download the [pretrain models](https://drive.google.com/drive/folders/1T6dAzWCsjMoc7VEspLjFTvrvhPeDNNMx) and put them in ```pretrain_model``` folder. Changing the path in ```train.py``` if you use these models.
+
 ## 💡 Citing this work
 If you find this repo useful for your research, please consider citing our paper:
 ```
