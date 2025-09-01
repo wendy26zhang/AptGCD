@@ -8,7 +8,7 @@ We recommend using conda environment to setup all required dependencies:
 conda env create -f environment.yml
 conda activate AptGCD
 ```
-If you have any problem with the above command, you can also install them by <code>pip install -r requirements.txt<\code>.
+If you have any problem with the above command, you can also install them by pip ```install -r requirements.txt```.
 
 # Datasets
 We trained on three general datasets [CIFAR-10](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html), [CIFAR-100](https://docs.pytorch.org/vision/main/generated/torchvision.datasets.CIFAR100.html)
