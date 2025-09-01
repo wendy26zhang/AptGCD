@@ -1,4 +1,21 @@
 # Prompt Transformer for Generalized Category Discovery
+
+<p align="center">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Less_Attention_is_More_Prompt_Transformer_for_Generalized_Category_Discovery_CVPR_2025_paper.html"><img src="https://img.shields.io/badge/-CVPR%202025-68488b"></a>
+  <a href="https://github.com/CVMI-Lab/SlotCon/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+</p>
+<p align="center">
+	Less Attention is more: Prompt Transformer for Generalized Category Discovery (CVPR 2025)<br>
+  By
+  Wei Zhang, 
+  <a href="https://faculty.bjtu.edu.cn/8221/">Baopeng Zhang</a>*, 
+  <a href="https://faculty.bjtu.edu.cn/8902/">Zhu Teng</a>,
+  Wenxin Luo, 
+  Junnan Zou,
+  Jianping Fan
+</p>
+
+
 This repository is the official implementation of AptGCD: [Less Attention is more: Prompt Transformer for Generalized Category Discovery](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Less_Attention_is_More_Prompt_Transformer_for_Generalized_Category_Discovery_CVPR_2025_paper.pdf)
 ![overview](assets/overview.png)
 ## Running
@@ -15,3 +32,6 @@ Set paths to datasets and desired log directories in ```config.py```.
 
 ### Scripts
 Train the model 
+
+## Acknowledge
+The code is built on this repo: https://github.com/Cliffia123/LegoGCD. Many thanks to their briliant works.
