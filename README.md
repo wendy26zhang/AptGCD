@@ -39,7 +39,7 @@ bash scripts/run_cars.sh
 ```
 
 ### Pretrain model
-Download the [pretrain models](https://drive.google.com/drive/folders/1T6dAzWCsjMoc7VEspLjFTvrvhPeDNNMx) and put them in ```pretrain_model``` folder. Changing the path in ```train.py``` if you use these models.
+Download the [pretrain models](https://drive.google.com/drive/folders/1T6dAzWCsjMoc7VEspLjFTvrvhPeDNNMx) and put them in ```pretrain_model``` folder. Changing the path (such as ```/pretrain_model/scars.pt```) in ```train.py``` if you use these models.
 
 ## 💡 Citing this work
 If you find this repo useful for your research, please consider citing our paper:
