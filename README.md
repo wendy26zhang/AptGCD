@@ -50,5 +50,5 @@ If you find this repo useful for your research, please consider citing our paper
 }
 ```
 
-## Acknowledge
+## 💜 Acknowledge
 The code is largely built on : [LegoGCD](https://github.com/Cliffia123/LegoGCD) and [SPTNet](https://visual-ai.github.io/sptnet/). Many thanks to their briliant works.
