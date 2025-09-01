@@ -19,8 +19,8 @@
 ![overview](assets/overview.png)
 ## 🏃 Running
 ### Dependencies
-The code was trained on python3.10 pytorch2.0.0 and CUDA11.7.
-You can install requirements by 
+The code was trained on ```python3.10``` ```pytorch2.0.0``` and ```CUDA11.7```.
+You can install dependencies by 
 ```
 pip install -r requirements.txt
 ```
