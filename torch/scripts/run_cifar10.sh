@@ -21,3 +21,4 @@ python train.py \
     --memax_weight 1 \
     --thr 0.95 \
     --exp_name cifar10_aptgcd
+ 

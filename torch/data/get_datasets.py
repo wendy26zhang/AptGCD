@@ -14,7 +14,7 @@ import os
 from config import osr_split_dir
 
 
-get_dataset_funcs = {
+get_dataset_funcs = {  
     'cifar10': get_cifar_10_datasets,
     'cifar100': get_cifar_100_datasets,
     'imagenet_100': get_imagenet_100_datasets,

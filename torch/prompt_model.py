@@ -19,7 +19,7 @@ class sa_layer(nn.Module):
         # self.sweight = nn.Parameter(torch.zeros(1, channel, 1, 1))
         self.sbias = nn.Parameter(torch.ones(1, channel // (8 * groups), 1, 1))
         # self.sbias = nn.Parameter(torch.ones(1, channel, 1, 1))
-
+ 
         self.sigmoid = nn.Sigmoid()
         self.gn = nn.GroupNorm(channel // (8 * groups), channel // (8 * groups))
         # self.gn = nn.BatchNorm2d(channel)

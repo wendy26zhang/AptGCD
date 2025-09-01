@@ -16,7 +16,7 @@ class HerbariumDataset19(torchvision.datasets.ImageFolder):
 
         self.uq_idxs = np.array(range(len(self)))
 
-    def __getitem__(self, idx):
+    def __getitem__(self, idx): 
 
         img, label = super().__getitem__(idx)
         uq_idx = self.uq_idxs[idx]

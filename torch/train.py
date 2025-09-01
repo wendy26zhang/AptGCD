@@ -23,7 +23,7 @@ from util.cluster_and_log_utils import log_accs_from_preds
 from config import exp_root
 from model import DINOHead, info_nce_logits, SupConLoss, DistillLoss, ContrastiveLearningViewGenerator, get_params_groups, initial_qhat, update_qhat, causal_inference, WeightedEntropyLoss 
 import respmvit as vit_prompt
-from prompt_model_glu import *
+from prompt_model_glu import * 
 from prompt_model import *
 
 torch.backends.cudnn.deterministic = True

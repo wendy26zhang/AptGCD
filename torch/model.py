@@ -18,7 +18,7 @@ class DINOHead(nn.Module):
             for _ in range(nlayers - 2):
                 layers.append(nn.Linear(hidden_dim, hidden_dim))
                 if use_bn:
-                    layers.append(nn.BatchNorm1d(hidden_dim))
+                    layers.append(nn.BatchNorm1d(hidden_dim)) 
                 layers.append(nn.GELU())
             layers.append(nn.Linear(hidden_dim, bottleneck_dim))
             self.mlp = nn.Sequential(*layers)

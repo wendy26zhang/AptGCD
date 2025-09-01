@@ -15,7 +15,7 @@ class CarsDataset(Dataset):
         Cars Dataset
     """
     def __init__(self, train=True, limit=0, data_dir=car_root, transform=None):
-
+ 
         metas = os.path.join(data_dir, 'devkit/cars_train_annos.mat') if train else os.path.join(data_dir, 'devkit/cars_test_annos_withlabels.mat')
         data_dir = os.path.join(data_dir, 'cars_train/') if train else os.path.join(data_dir, 'cars_test/')
 

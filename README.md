@@ -14,7 +14,7 @@
   Junnan Zou,
   Jianping Fan
 </p>
-
+ 
 
 This repository is the official implementation of AptGCD: [Less Attention is more: Prompt Transformer for Generalized Category Discovery](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Less_Attention_is_More_Prompt_Transformer_for_Generalized_Category_Discovery_CVPR_2025_paper.pdf)
 ![overview](assets/overview.png)

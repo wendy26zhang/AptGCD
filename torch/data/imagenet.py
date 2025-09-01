@@ -15,7 +15,7 @@ class ImageNetBase(torchvision.datasets.ImageFolder):
     def __init__(self, root, transform):
 
         super(ImageNetBase, self).__init__(root, transform)
-
+ 
         self.uq_idxs = np.array(range(len(self)))
 
     def __getitem__(self, item):

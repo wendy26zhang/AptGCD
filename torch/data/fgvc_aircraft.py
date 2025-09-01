@@ -16,7 +16,7 @@ def make_dataset(dir, image_ids, targets):
         item = (os.path.join(dir, 'data', 'images',
                              '%s.jpg' % image_ids[i]), targets[i])
         images.append(item)
-    return images
+    return images 
 
 
 def find_classes(classes_file):

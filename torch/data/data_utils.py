@@ -14,7 +14,7 @@ class MergedDataset(Dataset):
     """
     Takes two datasets (labelled_dataset, unlabelled_dataset) and merges them
     Allows you to iterate over them in parallel
-    """
+    """ 
 
     def __init__(self, labelled_dataset, unlabelled_dataset):
 

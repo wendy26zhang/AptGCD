@@ -21,3 +21,4 @@ python train.py \
     --memax_weight 2 \
     --thr 0.7 \
     --exp_name cub_aptgcd
+ 

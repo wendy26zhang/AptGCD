@@ -17,7 +17,7 @@ class SEBlock(nn.Module):
         y = self.fc(y).view(b, c, 1, 1)
         return x * y
 
-class ResidualBlock(nn.Module):
+class ResidualBlock(nn.Module): 
     def __init__(self, in_channels, out_channels, kernel_size=3, padding=1, reduction=16):
         super(ResidualBlock, self).__init__()
         self.conv1 = nn.Conv2d(in_channels, out_channels, kernel_size, padding=padding)

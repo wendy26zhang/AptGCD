@@ -22,3 +22,4 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python3 -m torch.distributed.launch --master_port=1
     --thr 0.7 \
     --exp_name imagenet1k_aptgcd \
     --print_freq 100
+ 

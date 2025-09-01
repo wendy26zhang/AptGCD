@@ -22,7 +22,7 @@ def split_cluster_acc_v2(y_true, y_pred, mask):
     # Return
         accuracy, in [0,1]
     """
-    y_true = y_true.astype(int)
+    y_true = y_true.astype(int) 
 
     old_classes_gt = set(y_true[mask])
     new_classes_gt = set(y_true[~mask])

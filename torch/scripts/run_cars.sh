@@ -22,4 +22,5 @@ python train.py \
     --memax_weight 1 \
     --thr 0.85 \
     --exp_name scars_aptgcd
-
+ 
+ 

@@ -21,3 +21,4 @@ python train.py \
     --memax_weight 1 \
     --thr 0.8 \
     --exp_name imagenet100_aptgcd
+ 

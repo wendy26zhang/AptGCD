@@ -22,3 +22,4 @@ python train.py \
     --memax_weight 1 \
     --thr 0.9 \
     --exp_name aircraft_aptgcd
+ 

@@ -15,7 +15,7 @@ class CustomCub2011(Dataset):
     base_folder = 'CUB_200_2011/images'
     url = 'http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz'
     filename = 'CUB_200_2011.tgz'
-    tgz_md5 = '97eceeb196236b17998738112f37df78'
+    tgz_md5 = '97eceeb196236b17998738112f37df78' 
 
     def __init__(self, root, train=True, transform=None, target_transform=None, loader=default_loader, download=False):
 
