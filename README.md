@@ -1,6 +1,6 @@
 # Prompt Transformer for Generalized Category Discovery
 This repository is the official implementation of AptGCD: [Less Attention is more: Prompt Transformer for Generalized Category Discovery](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Less_Attention_is_More_Prompt_Transformer_for_Generalized_Category_Discovery_CVPR_2025_paper.pdf)
-![overview](overview.png)
+![overview](assets/overview.png)
 ## Running
 ### Dependencies
 The code was trained on python3.10 pytorch2.0.0 and CUDA11.7.
