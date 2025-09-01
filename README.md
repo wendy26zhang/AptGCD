@@ -1,4 +1,4 @@
-# Prompt Transformer for Generalized Category Discovery
+# Less Attention is More: Prompt Transformer for Generalized Category Discovery (CVPR2025)
 
 <p align="center">
     <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Less_Attention_is_More_Prompt_Transformer_for_Generalized_Category_Discovery_CVPR_2025_paper.html"><img src="https://img.shields.io/badge/-CVPR%202025-68488b"></a>
