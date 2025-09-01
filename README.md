@@ -8,8 +8,8 @@
 	Less Attention is more: Prompt Transformer for Generalized Category Discovery (CVPR 2025)<br>
   By
   Wei Zhang, 
-  <a href="https://faculty.bjtu.edu.cn/8221/">Baopeng Zhang</a>*, 
-  <a href="https://faculty.bjtu.edu.cn/8902/">Zhu Teng</a>,
+  Baopeng Zhang*, 
+  Zhu Teng,
   Wenxin Luo, 
   Junnan Zou,
   Jianping Fan
@@ -33,5 +33,18 @@ Set paths to datasets and desired log directories in ```config.py```.
 ### Scripts
 Train the model 
 
+
+## Citing this work
+If you find this repo useful for your research, please consider citing our paper:
+```
+@inproceedings{zhang2025less,
+  title={Less Attention is More: Prompt Transformer for Generalized Category Discovery},
+  author={Zhang, Wei and Zhang, Baopeng and Teng, Zhu and Luo, Wenxin and Zou, Junnan and Fan, Jianping},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={30322--30331},
+  year={2025}
+}
+```
+
 ## Acknowledge
-The code is built on this repo: https://github.com/Cliffia123/LegoGCD. Many thanks to their briliant works.
+The code is largely built on : [LegoGCD](https://github.com/Cliffia123/LegoGCD) and [SPTNet](https://visual-ai.github.io/sptnet/). Many thanks to their briliant works.
