@@ -17,7 +17,7 @@
  
 
 ![overview](assets/overview.png)
-## Running
+## 🏃 Running
 ### Dependencies
 The code was trained on python3.10 pytorch2.0.0 and CUDA11.7.
 You can install requirements by 
@@ -33,10 +33,12 @@ Set paths to datasets and desired log directories in ```config.py```.
 * We also user four fine-grained benchmarks: [StanfordCars](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb), [CUB-200](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb), [FGVC-Aircraft](https://github.com/sgvaze/osr_closed_set_all_you_need#ssb) and [Herbarium19](https://www.kaggle.com/c/herbarium-2019-fgvc6).
 
 ### Scripts
-Train the model 
+Train the model (taking the Stanford Cars benchmark as an example).
+```
+bash scripts/run_cars.sh
+```
 
-
-## Citing this work
+## 💡 Citing this work
 If you find this repo useful for your research, please consider citing our paper:
 ```
 @inproceedings{zhang2025less,
