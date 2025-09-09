@@ -20,11 +20,14 @@
 ![overview](assets/overview.png)
 ## 🏃 Running
 ### Dependencies
-The code was trained on ```python3.10``` ```pytorch2.0.0``` and ```CUDA11.7```.
-You can install dependencies by 
+We provide ```torch``` version and  ```paddle``` version in this repo.
+
+* ```Torch```: The code was trained on ```python3.10``` ```pytorch2.0.0``` and ```CUDA11.7```. You can install dependencies by 
 ```
 pip install -r requirements.txt
 ```
+
+* ```Paddle```: This version was trained on ```python3.10.9``` ```paddlepaddle-gpu2.6.2.post112```
 
 ### Config
 Set paths to datasets and desired log directories in ```config.py```.
